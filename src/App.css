@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+#root {
+  background-color: lemonchiffon;
+}
+.sunny {
+  background-image: linear-gradient(to right top, #ff4e50, #ff713e, #ff932b, #ffb41d, #f9d423);
+}
+.cloudy {
+  background-image: linear-gradient(to right top, #63747c, #71858e, #7f96a0, #8da8b2, #9bbac5);
+}
+.rainy {
+  background-image: linear-gradient(to right top, #637c7b, #718e8c, #7ea09e, #8db2b0, #9bc5c3);
+}
+.blank {
+  background-image: linear-gradient(to right top, #276664, #369992, #39d4ca, #cbeceb, #f6f8f8);
+}
+
+.container li {
+  list-style-type: none;
+  margin: 10px;
+}

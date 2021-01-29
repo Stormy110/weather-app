@@ -1,9 +1,16 @@
 import React from 'react';
 
-function WeatherCard() {
+function WeatherCard(props) {
+ 
+
     return (
         <div className="card">
-            <p>This will be a weather card</p>
+            <div id='weather'>
+                <div id='description'>{props.description}</div>
+                <h1 id='temp'>{props.temp}</h1>
+                <div id='location'>{props.name}</div>
+            </div>
+            <br/>
         </div>
     )
 }
